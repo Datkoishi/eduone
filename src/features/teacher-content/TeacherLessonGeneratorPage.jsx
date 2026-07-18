@@ -21,7 +21,7 @@ import { FormAlert, FormField } from "../auth/AuthFormControls.jsx";
 import { GeneratedLessonEditor } from "./GeneratedLessonEditor.jsx";
 
 // Python AI Content Service (FastAPI) — tách khỏi backend Node.
-const AI_SERVICE_URL = import.meta.env.VITE_AI_SERVICE_URL || "http://103.77.242.147:8100";
+const AI_SERVICE_URL = import.meta.env.VITE_AI_SERVICE_URL || "https://lexigo.vn/eduone-ai";
 
 const GRADES = Array.from({ length: 12 }, (_, index) => index + 1);
 
