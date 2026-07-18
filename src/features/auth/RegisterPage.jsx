@@ -122,7 +122,7 @@ export function RegisterPage() {
     const result = await supabase.auth.signUp({
       email: form.email.trim().toLowerCase(),
       password: form.password,
-      options: { emailRedirectTo: `${window.location.origin}/auth/callback`, data: signUpData },
+      options: { emailRedirectTo: 'https://eduone.vercel.app/auth/callback', data: signUpData },
     });
     if (result.error) {
       const is429 = result.error.status === 429
@@ -152,7 +152,7 @@ export function RegisterPage() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
-        redirectTo: `${window.location.origin}/auth/callback`,
+        redirectTo: 'https://eduone.vercel.app/auth/callback',
       },
     });
     if (error) {

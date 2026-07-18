@@ -18,7 +18,7 @@ export function ForgotPasswordPage() {
     setSubmitting(true);
     setError(null);
     const result = await supabase.auth.resetPasswordForEmail(email.trim().toLowerCase(), {
-      redirectTo: `${window.location.origin}/reset-password`,
+      redirectTo: 'https://eduone.vercel.app/reset-password',
     });
     if (result.error) setError(friendlyAuthError(result.error));
     else setMessage("Nếu email tồn tại, EduOne đã gửi liên kết đặt lại mật khẩu.");
