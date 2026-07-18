@@ -1,0 +1,55 @@
+{
+  "hash": "5fef98ab",
+  "configHash": "bba88c5c",
+  "lockfileHash": "20a8923c",
+  "browserHash": "b5dcd019",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "eb21de14",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "aff2e8ef",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "b2f44eef",
+      "needsInterop": false
+    },
+    "lucide-react": {
+      "src": "../../node_modules/lucide-react/dist/esm/lucide-react.js",
+      "file": "lucide-react.js",
+      "fileHash": "a012dbba",
+      "needsInterop": false
+    },
+    "socket.io-client": {
+      "src": "../../node_modules/socket.io-client/build/esm/index.js",
+      "file": "socket__io-client.js",
+      "fileHash": "cb916d6b",
+      "needsInterop": false
+    },
+    "recharts": {
+      "src": "../../node_modules/recharts/es6/index.js",
+      "file": "recharts.js",
+      "fileHash": "a11348cb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-SLC747A6": {
+      "file": "chunk-SLC747A6.js"
+    },
+    "chunk-VVXSE5JX": {
+      "file": "chunk-VVXSE5JX.js"
+    },
+    "chunk-PX6F3LHL": {
+      "file": "chunk-PX6F3LHL.js"
+    }
+  }
+}
