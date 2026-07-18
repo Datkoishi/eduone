@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const REALTIME_URL = import.meta.env.VITE_REALTIME_URL || "http://localhost:4000";
+const REALTIME_URL = import.meta.env.VITE_REALTIME_URL || "http://103.77.242.147:4005";
 
 export function connectRealtime(accessToken) {
   return io(REALTIME_URL, {

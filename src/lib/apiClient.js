@@ -1,6 +1,6 @@
 import { supabase } from "./supabaseClient.js";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://103.77.242.147:4005/api";
 
 export class ApiError extends Error {
   constructor(message, { code = "API_ERROR", status = 500, requestId = null } = {}) {
